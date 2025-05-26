@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // toggle chat window
   chatIcon.addEventListener("click", () => {
     // chatWindow.classList.toggle("show");
-    window.open("https://vintagebot.onrender.com/", "_blank");
+    // window.open("https://vintagebot.onrender.com/", "_blank");
+    window.open("https://vintage-personalized-chat.streamlit.app/", "_blank");
   });
 
   chatInput.addEventListener("keydown", function (event) {
